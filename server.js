@@ -8,16 +8,14 @@ app.use(morgan('combined'));
 var content= {
     title: 'Article one | Nik Joshi',
     heading:'Article one',
-    Date: 'Feb 08. 2017',
-    content: 
-    <p>
+    date: 'Feb 08. 2017',
+    content: '         <p>
         This is the content of my Article one.         This is the content of my Article one.        This is the content of my Article one.
       </p>
       
       <p>
          This is the content of my Article one.        This is the content of my Article one.        This is the content of my Article one.
         </p>'
-
     
 };
 
