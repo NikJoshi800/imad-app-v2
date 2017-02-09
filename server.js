@@ -9,10 +9,10 @@ var articleOnet= {
     title: 'Article one | Nik Joshi',
     heading:'Article one',
     date: 'Feb 08. 2017',
-    content:
+    content: 
     <p>
         This is the content of my Article one.         This is the content of my Article one.        This is the content of my Article one.
-         </p>
+      </p>
          <p>
           This is the content of my Article one.        This is the content of my Article one.        This is the content of my Article on. </p>
           
