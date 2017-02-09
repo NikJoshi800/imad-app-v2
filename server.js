@@ -9,14 +9,14 @@ var articleOnet= {
     title: 'Article one | Nik Joshi',
     heading:'Article one',
     date: 'Feb 08. 2017',
-    content: 
-    <p>
+    content: <p>
         This is the content of my Article one.         This is the content of my Article one.        This is the content of my Article one.
-      </p>
-         <p>
-          This is the content of my Article one.        This is the content of my Article one.        This is the content of my Article on. </p>
-          
+            
+            <p>
+          This is the content of my Article one.        This is the content of my Article one.        This is the content of my Article one.
+            </p>
     
+ 
 };
 function createTemplet(data){
     var title = data.title;
