@@ -11,10 +11,10 @@ var articleOnet= {
     date: 'Feb 08. 2017',
     content:    
             <p>
-        This is the content of my Article one.         This is the content of my Article one.        This is the content of my Article one.
-            </p>
+        This is the content of my Article one.         This is the content of my Article one.        This is the content of my Article one
+                </p>;
             <p>
-          This is the content of my Article one.        This is the content of my Article one.        This is the content of my Article one.
+          This is the content of my Article one.        This is the content of my Article one.        This is the content of my Article one
             </p>'
  
 };
