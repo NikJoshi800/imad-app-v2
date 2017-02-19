@@ -1,10 +1,25 @@
 //console.log('Loaded!');
 //counter coding
 var button= document.getElementById('conter');
-var counter = 0;
+
 button.onclick = function()
-{
-    counter = counter + 1;
-    var span = document.getElementById('count');
-    span.InnerHTML = counter.toString();
+{     
+    // create the request obj
+    var request = new XMLHttpRequest();
+    //capture the response and stored it in variable
+    request.onreadystatechange = function(){
+        if(request.readysate === XMLHttpRequest.Done){
+      // take same action
+      if(request.status ===200){
+          var counter = request.responseText;
+           var span = document.getElementById('count');
+              span.InnerHTML = counter.toString();
+          }
+        }
+        //not done
+    };
+
+   // make the request
+   request.open('GET','http/nikjoshi800.imad.hasura-app.io/counter',true);
+   request.send(null);
 };
