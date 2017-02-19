@@ -83,6 +83,7 @@ app.get('/counter', function (req, res) {
  counter = counter + 1;
  res.send(counter.toString());
 });
+
  var names=[];
  app.get('/submit-name',function(req,res){//url:/submit-name?name=?????
      //get the name from the request
