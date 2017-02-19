@@ -31,7 +31,7 @@ submit.onclick = function(){
     //make the request to the server and send the name
     
      //capture the list of name
-     var name =['name1','name2','name3'];
+     var names =['name1','name2','name3'];
      var list ='';
      for(var i =0; i<name.length;i++){
          list += '<li>'+ name[i]+'</li>';
