@@ -1,6 +1,6 @@
 //console.log('Loaded!');
 //counter coding
-var button= document.getElementById('conter');
+var button= document.getElementById('counter');
 
 button.onclick = function()
 {     
